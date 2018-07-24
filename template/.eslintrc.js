@@ -84,5 +84,9 @@ module.exports = {
     'quotes': [1, 'single'],
     //语句强制分号结尾
     // 'semi': [2, 'always'], 
+    // 要求使用 === 和 !==
+    'eqeqeq': 2
+    // 缩进风格
+    'indent': [2,4]
   }
 }
