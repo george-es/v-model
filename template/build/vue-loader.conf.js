@@ -18,5 +18,6 @@ module.exports = {
     source: 'src',
     img: 'src',
     image: 'xlink:href'
-  }
+  },
+  esModule: false // 使require() 函数可以正确导出, 而不是使用require().default, 详解见https://github.com/vuejs/vue-loader/releases/tag/v13.0.0
 }
