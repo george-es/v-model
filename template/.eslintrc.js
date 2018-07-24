@@ -69,6 +69,20 @@ module.exports = {
     }],
     {{/if_eq}}
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // 禁止 function 定义中出现重名参数
+    'no-dupe-args': 2,
+    // 禁止空语句块
+    'no-empty': 2,
+    // 禁止不必要的布尔转换
+    'no-extra-boolean-cast': 2,
+    // 禁止出现空函数.如果一个函数包含了一条注释，它将不会被认为有问题。
+    'no-empty-function': 2,
+    // 禁止 case 语句落空
+    'no-fallthrough': 2,
+    // 引号类型 `` "" ''
+    'quotes': [1, 'single'],
+    //语句强制分号结尾
+    // 'semi': [2, 'always'], 
   }
 }
