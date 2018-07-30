@@ -8,6 +8,10 @@
     "docs:deploy": "bash ./deploy-docs.sh"
   },
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
     "vue-cli": "^2.8.1"
   }
 }
